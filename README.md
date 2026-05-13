@@ -95,6 +95,7 @@ In addition, you **MUST** make sure Windhawk can inject into winlogon.exe. You c
 - `Release` builds `explorer.exe` with **no** UWP app support.
 - `ReleaseDLL` builds `ExplorerEx.dll` with UWP app support enabled for use with the loader Windhawk mod provided in the repository.
 - `ReleaseDebug` builds `explorer.exe` with **no** UWP app support, optimizations disabled and console output enabled.
+jacob
 
 > [!NOTE]
 > `Debug` configuration is currently (as of Sep 5, 2025) broken. Please use the `ReleaseDebug` configuration instead.
